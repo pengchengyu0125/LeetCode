@@ -1,3 +1,5 @@
+package BinarySearch;
+
 /*
 Implement int sqrt(int x).
 
