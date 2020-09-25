@@ -18,7 +18,7 @@ Note:
 S will have length in range [1, 500].
 S will consist of lowercase English letters ('a' to 'z') only.
  */
-package greedy;
+package Greedy;
 
 import java.util.ArrayList;
 import java.util.List;

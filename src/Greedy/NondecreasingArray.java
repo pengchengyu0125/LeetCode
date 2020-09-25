@@ -22,7 +22,7 @@ Constraints:
 1 <= n <= 10 ^ 4
 - 10 ^ 5 <= nums[i] <= 10 ^ 5
  */
-package greedy;
+package Greedy;
 
 public class NondecreasingArray {
     public static void main(String[] args) {

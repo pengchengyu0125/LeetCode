@@ -30,7 +30,7 @@ Constraints:
 1 <= prices.length <= 3 * 10 ^ 4
 0 <= prices[i] <= 10 ^ 4
  */
-package greedy;
+package Greedy;
 
 public class BestTimetoBuyandSellStockII {
     public static void main(String[] args) {

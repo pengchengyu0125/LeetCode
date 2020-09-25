@@ -27,7 +27,7 @@ Constraints:
 0 <= t.length <= 10^4
 Both strings consists only of lowercase characters.
  */
-package greedy;
+package Greedy;
 
 public class IsSubsequence {
     public static void main(String[] args) {
