@@ -38,28 +38,36 @@ public class BinaryTreePaths {
             System.out.println(list.get(i));
         }
     }
+
     public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
         TreeNode(int val, TreeNode left, TreeNode right) {
             this.val = val;
             this.left = left;
             this.right = right;
         }
     }
+
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> ret = new ArrayList();
-        if(root == null) return ret;
+        if (root == null) return ret;
         dfs(root, "", ret);
         return ret;
     }
 
-    private void dfs(TreeNode root, String prefix, List<String> ret){
-        if(root == null) return;
-        if(root.left == null && root.right == null){
+    private void dfs(TreeNode root, String prefix, List<String> ret) {
+        if (root == null) return;
+        if (root.left == null && root.right == null) {
             ret.add(prefix + root.val);
             return;
         }

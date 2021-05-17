@@ -24,28 +24,26 @@ package TwoPointers;
 
 public class MergeSortedArray {
     public static void main(String[] args) {
-        int nums1[],nums2[];
+        int nums1[], nums2[];
         nums1 = new int[]{1, 2, 3};
         nums2 = new int[]{2, 5, 6};
-        int m=3,n=3;
-        MergeSortedArray merge=new MergeSortedArray();
-        merge.merge(nums1,m,nums2,n);
+        int m = 3, n = 3;
+        MergeSortedArray merge = new MergeSortedArray();
+        merge.merge(nums1, m, nums2, n);
     }
+
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int total[] = new int[m+n];
-        int num=0,i=0,j=0;
-        while (num<m+n){
-            if (i > m-1){
+        int total[] = new int[m + n];
+        int num = 0, i = 0, j = 0;
+        while (num < m + n) {
+            if (i > m - 1) {
                 total[num] = nums2[j];
-            }
-            else if (j > n-1){
+            } else if (j > n - 1) {
                 total[num] = nums1[i];
-            }
-            else if (nums1[i] <= nums2[j]){
+            } else if (nums1[i] <= nums2[j]) {
                 total[num] = nums1[i];
                 ++i;
-            }
-            else {
+            } else {
                 total[num] = nums2[j];
                 ++j;
             }

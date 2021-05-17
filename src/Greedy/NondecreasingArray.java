@@ -27,10 +27,11 @@ package Greedy;
 public class NondecreasingArray {
     public static void main(String[] args) {
         int nums[];
-        nums=new int[]{3,4,2,3};
-        NondecreasingArray n=new NondecreasingArray();
+        nums = new int[]{3, 4, 2, 3};
+        NondecreasingArray n = new NondecreasingArray();
         System.out.println(n.checkPossibility(nums));
     }
+
     public boolean checkPossibility(int[] nums) {
         int cnt = 1, n = nums.length;
         for (int i = 1; i < n; ++i) {

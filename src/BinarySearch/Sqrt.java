@@ -20,24 +20,25 @@ Explanation: The square root of 8 is 2.82842..., and since
  */
 public class Sqrt {
     public static void main(String[] args) {
-        int x=120;
-        Sqrt sqrt=new Sqrt();
+        int x = 120;
+        Sqrt sqrt = new Sqrt();
     }
-    public int result(int x){
-        if (x<4&&x>0)
+
+    public int result(int x) {
+        if (x < 4 && x > 0)
             return 1;
-        else if (x==0)
+        else if (x == 0)
             return 0;
-        int l=0,r=x,mid=0;
-        while(l<=r){
-            mid=l+(r-l)/2;
+        int l = 0, r = x, mid = 0;
+        while (l <= r) {
+            mid = l + (r - l) / 2;
             System.out.println(mid);
-            if (x/mid==mid)
+            if (x / mid == mid)
                 return mid;
-            else if (x/mid>mid)
-                l=mid+1;
-            else if (x/mid<mid)
-                r=mid-1;
+            else if (x / mid > mid)
+                l = mid + 1;
+            else if (x / mid < mid)
+                r = mid - 1;
         }
         return r;
     }

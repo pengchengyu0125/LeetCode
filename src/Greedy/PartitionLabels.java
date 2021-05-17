@@ -25,30 +25,31 @@ import java.util.List;
 
 public class PartitionLabels {
     public static void main(String[] args) {
-        String S="ababcbacadefegdehijhklij";
-        List<Integer> list=new ArrayList<>();
-        PartitionLabels p=new PartitionLabels();
-        list=p.partitionLabels(S);
+        String S = "ababcbacadefegdehijhklij";
+        List<Integer> list = new ArrayList<>();
+        PartitionLabels p = new PartitionLabels();
+        list = p.partitionLabels(S);
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
     }
+
     public List<Integer> partitionLabels(String S) {
-        char[] c=S.toCharArray();
-        List<Integer> list=new ArrayList<>();
-        int l=c.length;
-        int start=0,end=0,num=0;
-        for (int i = 0; i <l+1 ; ++i) {
-            if (num>end){
-                list.add(end-start+1);
-                start=end+1;
+        char[] c = S.toCharArray();
+        List<Integer> list = new ArrayList<>();
+        int l = c.length;
+        int start = 0, end = 0, num = 0;
+        for (int i = 0; i < l + 1; ++i) {
+            if (num > end) {
+                list.add(end - start + 1);
+                start = end + 1;
                 ++end;
                 --i;
                 continue;
             }
-            for (int j = i+1; j < l; ++j) {
-                if (c[i]==c[j]&&j>end){
-                    end=j;
+            for (int j = i + 1; j < l; ++j) {
+                if (c[i] == c[j] && j > end) {
+                    end = j;
                 }
             }
             ++num;

@@ -15,14 +15,15 @@ package TwoPointers;
 
 public class ValidPalindromeII {
     public static void main(String[] args) {
-        String s="ececabbacec";
-        ValidPalindromeII v=new ValidPalindromeII();
+        String s = "ececabbacec";
+        ValidPalindromeII v = new ValidPalindromeII();
         System.out.println(v.validPalindrome(s));
     }
+
     public boolean validPalindrome(String s) {
-        int i = 0, j = s.length() -1;
-        while(i < j){
-            if(s.charAt(i) != s.charAt(j)){
+        int i = 0, j = s.length() - 1;
+        while (i < j) {
+            if (s.charAt(i) != s.charAt(j)) {
                 return isPalindrome(s, i, j - 1) || isPalindrome(s, i + 1, j);
             }
             i++;
@@ -30,9 +31,10 @@ public class ValidPalindromeII {
         }
         return true;
     }
-    private boolean isPalindrome(String s, int l, int r){
-        while(l < r){
-            if(s.charAt(l) != s.charAt(r))
+
+    private boolean isPalindrome(String s, int l, int r) {
+        while (l < r) {
+            if (s.charAt(l) != s.charAt(r))
                 return false;
             l++;
             r--;

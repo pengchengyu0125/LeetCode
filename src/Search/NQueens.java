@@ -33,8 +33,8 @@ public class NQueens {
     static int resultCount = 0;
 
     private static boolean place(int[] arr, int s) {
-        for(int i = 0; i < s; i++) {
-            if((arr[i] == arr[s]) || (Math.abs(i-s) == Math.abs(arr[i]-arr[s]))) {
+        for (int i = 0; i < s; i++) {
+            if ((arr[i] == arr[s]) || (Math.abs(i - s) == Math.abs(arr[i] - arr[s]))) {
                 return false;
             }
         }
@@ -43,13 +43,13 @@ public class NQueens {
     }
 
     public static void tria(int[] arr, int i, int n) {
-        if(i >= n) {
+        if (i >= n) {
             ++resultCount;
         } else {
-            for(int j = 0; j < n; j++) {
+            for (int j = 0; j < n; j++) {
                 arr[i] = j;
-                if(place(arr, i)) {
-                    tria(arr, i+1, n);
+                if (place(arr, i)) {
+                    tria(arr, i + 1, n);
                 }
             }
         }

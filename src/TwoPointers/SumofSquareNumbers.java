@@ -17,20 +17,21 @@ package TwoPointers;
 
 public class SumofSquareNumbers {
     public static void main(String[] args) {
-        int c=100000;
-        SumofSquareNumbers s=new SumofSquareNumbers();
+        int c = 100000;
+        SumofSquareNumbers s = new SumofSquareNumbers();
         System.out.println(s.judgeSquareSum(c));
     }
+
     public boolean judgeSquareSum(int c) {
-        int i=0,j=(int) Math.sqrt(c);
-        if (c==0||c==1)
+        int i = 0, j = (int) Math.sqrt(c);
+        if (c == 0 || c == 1)
             return true;
         else
-            while (i<=j){
-                int a=i*i,b=j*j;
-                if (a+b==c)
+            while (i <= j) {
+                int a = i * i, b = j * j;
+                if (a + b == c)
                     return true;
-                else if (a+b>c)
+                else if (a + b > c)
                     --j;
                 else ++i;
             }

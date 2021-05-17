@@ -22,19 +22,20 @@ Explanation: The answer is "wke", with the length of 3.
  */
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
-        String s="abcdbcaaabb";
-        LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeatingCharacters=new LongestSubstringWithoutRepeatingCharacters();
+        String s = "pwwkew";
+        LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeatingCharacters = new LongestSubstringWithoutRepeatingCharacters();
         System.out.println(longestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring(s));
     }
+
     public int lengthOfLongestSubstring(String s) {
-        int num=0;
-        HashMap<Character,Integer> hashMap=new HashMap<>();
-        for (int i = 0, j = 0; i <s.length(); i++) {
-            if (hashMap.containsKey(s.charAt(i))){
-                j=Math.max(hashMap.get(s.charAt(i)),j);
+        int num = 0;
+        HashMap<Character, Integer> hashMap = new HashMap<>();
+        for (int i = 0, j = 0; i < s.length(); i++) {
+            if (hashMap.containsKey(s.charAt(i))) {
+                j = Math.max(hashMap.get(s.charAt(i)), j);
             }
-            hashMap.put(s.charAt(i),i+1);
-            num=Math.max(num,i-j+1);
+            hashMap.put(s.charAt(i), i + 1);
+            num = Math.max(num, i - j + 1);
         }
         return num;
     }

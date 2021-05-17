@@ -26,15 +26,15 @@ The median is (2 + 3)/2 = 2.5
  */
 public class MedianofTwoSortedArrays {
     public static void main(String[] args) {
-        int[] nums1,nums2;
-        nums1=new int[]{1,3};
-        nums2=new int[]{2,4};
-        MedianofTwoSortedArrays medianofTwoSortedArrays=new MedianofTwoSortedArrays();
-        System.out.println(medianofTwoSortedArrays.findMedianSortedArrays(nums1,nums2));
+        int[] nums1, nums2;
+        nums1 = new int[]{1, 3};
+        nums2 = new int[]{2, 4};
+        MedianofTwoSortedArrays medianofTwoSortedArrays = new MedianofTwoSortedArrays();
+        System.out.println(medianofTwoSortedArrays.findMedianSortedArrays(nums1, nums2));
     }
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        List<Integer> nums=new ArrayList<>();
+        List<Integer> nums = new ArrayList<>();
         for (int i = 0; i < nums1.length; i++) {
             nums.add(nums1[i]);
         }
@@ -42,15 +42,15 @@ public class MedianofTwoSortedArrays {
             nums.add(nums2[i]);
         }
         Collections.sort(nums);
-        int a=nums.size()%2;
-        if (a==0){
-            int i=nums.size()/2;
-            double x,y;
-            x=nums.get(i);
-            y=nums.get(i-1);
-            return (x+y)/2;
+        int a = nums.size() % 2;
+        if (a == 0) {
+            int i = nums.size() / 2;
+            double x, y;
+            x = nums.get(i);
+            y = nums.get(i - 1);
+            return (x + y) / 2;
         }
-        int i=nums.size()/2;
+        int i = nums.size() / 2;
         return nums.get(i);
     }
 }

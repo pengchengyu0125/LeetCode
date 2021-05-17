@@ -52,12 +52,13 @@ public class LinkedListCycle {
         LinkedListCycle l = new LinkedListCycle();
         System.out.println(l.hasCycle(head));
     }
+
     public boolean hasCycle(ListNode head) {
         if (head == null)
             return false;
         ListNode ln1 = head;
         ListNode ln2 = head.next;
-        while (ln1 != null && ln2!= null){
+        while (ln1 != null && ln2 != null) {
             if (ln1 == ln2)
                 return true;
             if (ln2.next == null)

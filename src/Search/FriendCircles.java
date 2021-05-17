@@ -44,21 +44,23 @@ public class FriendCircles {
         FriendCircles f = new FriendCircles();
         System.out.println(f.findCircleNum(M));
     }
+
     public int findCircleNum(int[][] M) {
         int num = 0;
         int record[] = new int[M.length];
         for (int i = 0; i < M.length; i++) {
-            if (record[i] == 0){
+            if (record[i] == 0) {
                 dfs(M, record, i);
                 ++num;
             }
         }
         return num;
     }
-    public void dfs(int[][] M, int[] record, int i){
-        record[i]=1;
+
+    public void dfs(int[][] M, int[] record, int i) {
+        record[i] = 1;
         for (int j = 0; j < M.length; j++) {
-            if (M[i][j] == 1 && record[j] == 0){
+            if (M[i][j] == 1 && record[j] == 0) {
                 dfs(M, record, j);
             }
         }

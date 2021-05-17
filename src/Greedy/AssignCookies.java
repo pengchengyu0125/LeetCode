@@ -22,29 +22,30 @@ Explanation: You have 2 children and 3 cookies. The greed factors of 2 children 
 You have 3 cookies and their sizes are big enough to gratify all of the children,
 You need to output 2.
  */
+
 import java.util.Arrays;
 
 public class AssignCookies {
     public static void main(String[] args) {
-        int g[],s[];
-        g=new int[]{1,2};
-        s=new int[]{1,2,3};
-        AssignCookies assignCookies=new AssignCookies();
-        System.out.println(assignCookies.findContentChildren(g,s));
+        int g[], s[];
+        g = new int[]{1, 2};
+        s = new int[]{1, 2, 3};
+        AssignCookies assignCookies = new AssignCookies();
+        System.out.println(assignCookies.findContentChildren(g, s));
     }
+
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
         Arrays.sort(s);
-        int num=0;
-        int i=0,j=0;
+        int num = 0;
+        int i = 0, j = 0;
 
-        while(j<s.length&&i<g.length){
-            if (g[i]<=s[j]) {
+        while (j < s.length && i < g.length) {
+            if (g[i] <= s[j]) {
                 num++;
                 i++;
                 j++;
-            }
-            else
+            } else
                 j++;
         }
         return num;

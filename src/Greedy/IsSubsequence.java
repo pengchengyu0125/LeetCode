@@ -31,26 +31,27 @@ package Greedy;
 
 public class IsSubsequence {
     public static void main(String[] args) {
-        String s="axc";
-        String t="ahbgdc";
-        IsSubsequence is=new IsSubsequence();
-        System.out.println(is.isSubsequence(s,t));
+        String s = "axc";
+        String t = "ahbgdc";
+        IsSubsequence is = new IsSubsequence();
+        System.out.println(is.isSubsequence(s, t));
     }
+
     Boolean isSubsequence(String s, String t) {
-        char[] a=s.toCharArray();
-        char[] b=t.toCharArray();
-        int l=b.length;
-        int num=a.length;
-        int j=0;
+        char[] a = s.toCharArray();
+        char[] b = t.toCharArray();
+        int l = b.length;
+        int num = a.length;
+        int j = 0;
         for (int i = 0; i < l; ++i) {
-            if (num<1)
+            if (num < 1)
                 break;
-            if (a[j]==b[i]) {
+            if (a[j] == b[i]) {
                 ++j;
                 --num;
             }
         }
-        if (num>0)
+        if (num > 0)
             return false;
         return true;
     }

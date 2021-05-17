@@ -25,15 +25,16 @@ import java.util.List;
 
 public class LongestWordinDictionarythroughDeleting {
     public static void main(String[] args) {
-        String s="abpcplea";
-        List<String> d=new ArrayList<>();
+        String s = "abpcplea";
+        List<String> d = new ArrayList<>();
         d.add("ale");
         d.add("apple");
         d.add("monkey");
         d.add("plea");
-        LongestWordinDictionarythroughDeleting l=new LongestWordinDictionarythroughDeleting();
-        System.out.println(l.findLongestWord(s,d));
+        LongestWordinDictionarythroughDeleting l = new LongestWordinDictionarythroughDeleting();
+        System.out.println(l.findLongestWord(s, d));
     }
+
     public String findLongestWord(String s, List<String> d) {
         String ret = "";
         for (String str : d) {

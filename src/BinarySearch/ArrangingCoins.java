@@ -31,22 +31,23 @@ Because the 4th row is incomplete, we return 3.
  */
 public class ArrangingCoins {
     public static void main(String[] args) {
-        int n=5,a=0;
-        ArrangingCoins arrangingCoins=new ArrangingCoins();
-        a=arrangingCoins.result(n);
+        int n = 5, a = 0;
+        ArrangingCoins arrangingCoins = new ArrangingCoins();
+        a = arrangingCoins.result(n);
         System.out.println(a);
     }
+
     public int result(int n) {
-        int l=0,r=n,mid=0;
-        while(l<=r){
-            mid=l+(r-l)/2;
-            long x=mid*(mid+1)/2;
-            if (x==n)
+        int l = 0, r = n, mid = 0;
+        while (l <= r) {
+            mid = l + (r - l) / 2;
+            long x = mid * (mid + 1) / 2;
+            if (x == n)
                 return mid;
-            else if (x>n)
-                r=mid-1;
+            else if (x > n)
+                r = mid - 1;
             else
-                l=mid+1;
+                l = mid + 1;
         }
         return r;
     }

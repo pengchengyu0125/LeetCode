@@ -36,28 +36,27 @@ package TwoPointers;
 public class TwoSum {
     public static void main(String[] args) {
         int a[];
-        a=new int[]{2,7,11,15};
-        int target=9;
-        TwoSum twoSum=new TwoSum();
-        a=twoSum.twoSum(a,target);
+        a = new int[]{2, 7, 11, 15};
+        int target = 9;
+        TwoSum twoSum = new TwoSum();
+        a = twoSum.twoSum(a, target);
         for (int i = 0; i < a.length; i++) {
             System.out.println(a[i]);
         }
     }
+
     public int[] twoSum(int[] numbers, int target) {
         int num[];
-        num=new int[]{0,0};
-        int i=0,j=numbers.length-1;
-        while (i<j){
-            if (numbers[i]+numbers[j]==target){
-                num[0]=i+1;
-                num[1]=j+1;
+        num = new int[]{0, 0};
+        int i = 0, j = numbers.length - 1;
+        while (i < j) {
+            if (numbers[i] + numbers[j] == target) {
+                num[0] = i + 1;
+                num[1] = j + 1;
                 break;
-            }
-            else if (numbers[i]+numbers[j]>target){
+            } else if (numbers[i] + numbers[j] > target) {
                 --j;
-            }
-            else ++i;
+            } else ++i;
         }
         return num;
     }

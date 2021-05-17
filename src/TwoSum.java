@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+
 /*
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -18,7 +19,7 @@ public class TwoSum {
         nums = new int[]{2, 7, 11, 15};
         int target = 9;
         TwoSum twoSum = new TwoSum();
-        System.out.println(twoSum.result(nums, target)[0]+" "+twoSum.result(nums, target)[1]);
+        System.out.println(twoSum.result(nums, target)[0] + " " + twoSum.result(nums, target)[1]);
     }
 
     public int[] result(int[] nums, int target) {

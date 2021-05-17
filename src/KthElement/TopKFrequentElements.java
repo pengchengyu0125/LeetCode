@@ -23,13 +23,14 @@ import java.util.*;
 public class TopKFrequentElements {
     public static void main(String[] args) {
         TopKFrequentElements top = new TopKFrequentElements();
-        int nums[] = new int[]{1,1,1,2,2,3};
+        int nums[] = new int[]{1, 1, 1, 2, 2, 3};
         int k = 2;
         int result[] = top.topKFrequent(nums, k);
         for (int i = 0; i < result.length; i++) {
             System.out.println(result[i]);
         }
     }
+
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         int f[] = new int[k];
@@ -37,11 +38,11 @@ public class TopKFrequentElements {
             map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
         }
         for (int i = 0; i < k; i++) {
-            int max=0;
+            int max = 0;
             for (int key : map.keySet()) {
                 int num;
                 num = map.get(key);
-                if (num > max){
+                if (num > max) {
                     max = num;
                     f[i] = key;
                 }

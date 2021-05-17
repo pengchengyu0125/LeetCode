@@ -10,13 +10,15 @@ public class elementUI {
     static String fileP = "E:\\elementUI\\";
     static String urlP = "https://unpkg.com/browse/element-ui@2.13.0/";
     static String urlF = "https://unpkg.com/element-ui@2.13.0/";
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         try {
             GetPage("");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
     static void GetPage(String after) throws Exception {
         System.out.println(urlP + after);
         new File(fileP + after).mkdir();
@@ -24,24 +26,24 @@ public class elementUI {
         http.setRequestMethod("GET");
         http.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3562.0 Safari/537.36");
         http.connect();
-        if(http.getResponseCode() == 200) {
+        if (http.getResponseCode() == 200) {
             InputStream inputStream = http.getInputStream();
-            byte [] buffer = new byte[1024];
-            ArrayList<byte []> byteList = new ArrayList<>();
+            byte[] buffer = new byte[1024];
+            ArrayList<byte[]> byteList = new ArrayList<>();
             ArrayList<Integer> byteLength = new ArrayList<>();
             int length;
             int totalLength = 0;
-            while( (length = inputStream.read(buffer)) != -1 ) {
+            while ((length = inputStream.read(buffer)) != -1) {
                 byteList.add(buffer);
                 byteLength.add(length);
                 totalLength += length;
                 buffer = new byte[1024];
             }
             http.disconnect();
-            byte [] all;
+            byte[] all;
             all = new byte[totalLength];
             totalLength = 0;
-            while(byteList.size() != 0) {
+            while (byteList.size() != 0) {
                 System.arraycopy(byteList.get(0), 0, all, totalLength, byteLength.get(0));
                 totalLength += byteLength.get(0);
                 byteList.remove(0);
@@ -50,13 +52,13 @@ public class elementUI {
             String content = new String(all, StandardCharsets.UTF_8);
             all = null;
             content = content.split("tbody")[1];
-            String [] us = content.split("href=\"");
-            for(int i = 1; i < us.length; i ++) {
+            String[] us = content.split("href=\"");
+            for (int i = 1; i < us.length; i++) {
                 String href = us[i].split("\"", 2)[0];
-                if(href.equals("../")) {
+                if (href.equals("../")) {
                     continue;
                 }
-                if(href.charAt(href.length() - 1) == '/') {
+                if (href.charAt(href.length() - 1) == '/') {
                     GetPage(after + href);
                 } else {
                     GetFile(after + href);
@@ -66,31 +68,32 @@ public class elementUI {
             GetPage(after);
         }
     }
-    static void GetFile(String url) throws Exception{
+
+    static void GetFile(String url) throws Exception {
         System.out.println(url);
         HttpURLConnection http;
         http = (HttpURLConnection) (new URL(urlF + url)).openConnection();
         http.setRequestMethod("GET");
         http.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3562.0 Safari/537.36");
         http.connect();
-        if(http.getResponseCode() == 200) {
+        if (http.getResponseCode() == 200) {
             InputStream inputStream = http.getInputStream();
-            byte [] buffer = new byte[1024];
-            ArrayList<byte []> byteList = new ArrayList<>();
+            byte[] buffer = new byte[1024];
+            ArrayList<byte[]> byteList = new ArrayList<>();
             ArrayList<Integer> byteLength = new ArrayList<>();
             int length;
             int totalLength = 0;
-            while( (length = inputStream.read(buffer)) != -1 ) {
+            while ((length = inputStream.read(buffer)) != -1) {
                 byteList.add(buffer);
                 byteLength.add(length);
                 totalLength += length;
                 buffer = new byte[1024];
             }
             http.disconnect();
-            byte [] all;
+            byte[] all;
             all = new byte[totalLength];
             totalLength = 0;
-            while(byteList.size() != 0) {
+            while (byteList.size() != 0) {
                 System.arraycopy(byteList.get(0), 0, all, totalLength, byteLength.get(0));
                 totalLength += byteLength.get(0);
                 byteList.remove(0);

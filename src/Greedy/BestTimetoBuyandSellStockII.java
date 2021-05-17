@@ -35,18 +35,18 @@ package Greedy;
 public class BestTimetoBuyandSellStockII {
     public static void main(String[] args) {
         int prices[];
-        prices=new int[]{7,1,5,3,6,4};
-        BestTimetoBuyandSellStockII b=new BestTimetoBuyandSellStockII();
+        prices = new int[]{7, 1, 5, 3, 6, 4};
+        BestTimetoBuyandSellStockII b = new BestTimetoBuyandSellStockII();
         System.out.println(b.maxProfit(prices));
     }
+
     public int maxProfit(int[] prices) {
-        int profit=0;
-        for (int i = 0; i < prices.length-1; i++) {
-            if (prices[i]<prices[i+1]) {
-                profit=profit+prices[i+1]-prices[i];
-            }
-            else if (prices[i]>prices[i+1]){
-                profit=profit+prices[i]-prices[i-1];
+        int profit = 0;
+        for (int i = 0; i < prices.length - 1; i++) {
+            if (prices[i] < prices[i + 1]) {
+                profit = profit + prices[i + 1] - prices[i];
+            } else if (prices[i] > prices[i + 1]) {
+                profit = profit + prices[i] - prices[i - 1];
             }
         }
         return profit;

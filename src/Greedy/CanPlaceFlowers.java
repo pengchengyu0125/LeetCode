@@ -19,36 +19,35 @@ package Greedy;
 public class CanPlaceFlowers {
     public static void main(String[] args) {
         int flowerbed[];
-        int n=2;
-        flowerbed=new int[]{1,0,0,0,1,0,0};
-        CanPlaceFlowers c=new CanPlaceFlowers();
-        System.out.println(c.canPlaceFlowers(flowerbed,n));
+        int n = 2;
+        flowerbed = new int[]{1, 0, 0, 0, 1, 0, 0};
+        CanPlaceFlowers c = new CanPlaceFlowers();
+        System.out.println(c.canPlaceFlowers(flowerbed, n));
     }
+
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
-        if (flowerbed[0]==0&&flowerbed.length==1){
-            if (n>1)
+        if (flowerbed[0] == 0 && flowerbed.length == 1) {
+            if (n > 1)
+                return false;
+            else
+                return true;
+        } else if (flowerbed[0] == 1 && flowerbed.length == 1) {
+            if (n > 0)
                 return false;
             else
                 return true;
         }
-        else if (flowerbed[0]==1&&flowerbed.length==1){
-            if (n>0)
-                return false;
-            else
-                return true;
-        }
-        for (int i = 0; i < flowerbed.length-1; i++) {
-            if (flowerbed[i]==0&&flowerbed[i+1]!=1) {
+        for (int i = 0; i < flowerbed.length - 1; i++) {
+            if (flowerbed[i] == 0 && flowerbed[i + 1] != 1) {
                 n--;
-                flowerbed[i]=1;
-            }
-            else if (flowerbed[i]==0&&flowerbed[i+1]==1)
+                flowerbed[i] = 1;
+            } else if (flowerbed[i] == 0 && flowerbed[i + 1] == 1)
                 i++;
             i++;
         }
-        if (flowerbed[flowerbed.length-1]==0&&flowerbed[flowerbed.length-2]!=1)
+        if (flowerbed[flowerbed.length - 1] == 0 && flowerbed[flowerbed.length - 2] != 1)
             n--;
-        if (n<1)
+        if (n < 1)
             return true;
         else
             return false;

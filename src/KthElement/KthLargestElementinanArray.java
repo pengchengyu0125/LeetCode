@@ -18,11 +18,12 @@ import java.util.PriorityQueue;
 
 public class KthLargestElementinanArray {
     public static void main(String[] args) {
-        int nums[] = new int[]{3,2,1,5,6,4};
-        int k=2;
+        int nums[] = new int[]{3, 2, 1, 5, 6, 4};
+        int k = 2;
         KthLargestElementinanArray kth = new KthLargestElementinanArray();
         System.out.println(kth.findKthLargest(nums, k));
     }
+
     public int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
         for (int i = 0; i < nums.length; i++) {
