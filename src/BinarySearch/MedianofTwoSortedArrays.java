@@ -27,30 +27,58 @@ The median is (2 + 3)/2 = 2.5
 public class MedianofTwoSortedArrays {
     public static void main(String[] args) {
         int[] nums1, nums2;
-        nums1 = new int[]{1, 3};
-        nums2 = new int[]{2, 4};
+        nums1 = new int[]{4, 5, 6, 8, 9};
+        nums2 = new int[]{};
         MedianofTwoSortedArrays medianofTwoSortedArrays = new MedianofTwoSortedArrays();
         System.out.println(medianofTwoSortedArrays.findMedianSortedArrays(nums1, nums2));
     }
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        List<Integer> nums = new ArrayList<>();
-        for (int i = 0; i < nums1.length; i++) {
-            nums.add(nums1[i]);
+        int l1 = nums1.length;
+        int l2 = nums2.length;
+        int[] num = new int[l1 + l2];
+        int count = 0;
+        if (l1 == 0 && l2 > 1) {
+            if (l2 % 2 == 0) {
+                return (double) (nums2[l2 / 2] + nums2[l2 / 2 - 1]) / 2;
+            } else
+                return nums2[l2 / 2];
+        } else if (l1 == 0 && l2 < 2) {
+            return nums2[0];
+        } else if (l2 == 0 && l1 > 1) {
+            if (l1 % 2 == 0) {
+                return (double) (nums1[l1 / 2] + nums1[l1 / 2 - 1]) / 2;
+            } else
+                return nums1[l1 / 2];
+        } else if (l2 == 0 && l1 < 2) {
+            return nums1[0];
+        } else {
+            int i = 0, j = 0;
+            while (i < l1 || j < l2) {
+                if (i > l1 - 1) {
+                    num[count] = nums2[j];
+                    ++j;
+                    ++count;
+                } else if (j > l2 - 1) {
+                    num[count] = nums1[i];
+                    ++i;
+                    ++count;
+                } else {
+                    if (nums1[i] <= nums2[j]) {
+                        num[count] = nums1[i];
+                        ++i;
+                        ++count;
+                    } else {
+                        num[count] = nums2[j];
+                        ++j;
+                        ++count;
+                    }
+                }
+
+            }
         }
-        for (int i = 0; i < nums2.length; i++) {
-            nums.add(nums2[i]);
-        }
-        Collections.sort(nums);
-        int a = nums.size() % 2;
-        if (a == 0) {
-            int i = nums.size() / 2;
-            double x, y;
-            x = nums.get(i);
-            y = nums.get(i - 1);
-            return (x + y) / 2;
-        }
-        int i = nums.size() / 2;
-        return nums.get(i);
+        if (count % 2 == 0) {
+            return (double) (num[count / 2] + num[count / 2 - 1]) / 2;
+        } else return num[count / 2];
     }
 }
