@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="986d2e0a-adc9-4f39-bc0c-b67754c86267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegularExpressionMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LetterCombinationsofaPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveNthNodeFromEndofList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LongestPalindromicSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/LongestPalindromicSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ZigZagConversion.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,43 +73,37 @@
       <recent name="TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeSum">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContainerWithMostWater" />
+  <component name="RunManager" selected="Application.GenerateParentheses">
+    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenerateParentheses" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstring" />
+    <configuration name="LetterCombinationsofaPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LetterCombinationsofaPhoneNumber" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianofTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.MedianofTwoSortedArrays" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegularExpressionMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegularExpressionMatching" />
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeTwoSortedLists" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
+    <configuration name="RemoveNthNodeFromEndofList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveNthNodeFromEndofList" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidParentheses" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.RegularExpressionMatching" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
-        <item itemvalue="Application.MedianofTwoSortedArrays" />
+        <item itemvalue="Application.GenerateParentheses" />
+        <item itemvalue="Application.MergeTwoSortedLists" />
+        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.RemoveNthNodeFromEndofList" />
+        <item itemvalue="Application.LetterCombinationsofaPhoneNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +140,10 @@
       <workItem from="1621478712135" duration="3412000" />
       <workItem from="1621562122435" duration="4209000" />
       <workItem from="1621821747507" duration="6593000" />
+      <workItem from="1621921144316" duration="7085000" />
+      <workItem from="1621995093534" duration="11411000" />
+      <workItem from="1622089404718" duration="6882000" />
+      <workItem from="1622165423232" duration="3375000" />
     </task>
     <servers />
   </component>
@@ -165,38 +163,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1621829160395">
+    <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1622182374270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621829160395" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1621829160395">
+    <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622182374270" />
+    <state width="1493" height="258" key="GridCell.Tab.0.center" timestamp="1622182374270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621829160395" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1621829160395">
+    <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622182374270" />
+    <state width="1493" height="258" key="GridCell.Tab.0.left" timestamp="1622182374270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621829160395" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1621829160395">
+    <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622182374270" />
+    <state width="1493" height="258" key="GridCell.Tab.0.right" timestamp="1622182374270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621829160395" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1621829160395">
+    <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622182374270" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1622182374271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621829160395" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1621829160395">
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622182374271" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1622182374271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621829160395" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1621829160395">
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622182374271" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1622182374271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621829160395" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1621829160395">
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622182374271" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1622182374271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621829160395" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622182374271" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1621238224681">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -209,6 +207,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="608" y="168" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1620364343891" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1622009378286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1622009378286" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,5 +222,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="stack2" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
