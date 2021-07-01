@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="986d2e0a-adc9-4f39-bc0c-b67754c86267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JumpGameII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RotateImage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JumpGameII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JumpGameII.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,21 +71,7 @@
       <recent name="TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JumpGameII">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CombinationSum" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindFirstandLastPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindFirstandLastPosition" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RotateImage">
     <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstMissingPositive" />
       <module name="leetcode" />
@@ -98,6 +86,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutations" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RotateImage" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TrappingRainWater" />
       <module name="leetcode" />
@@ -107,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateImage" />
+        <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.JumpGameII" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.FirstMissingPositive" />
-        <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.FindFirstandLastPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +156,8 @@
       <workItem from="1623295135199" duration="3059000" />
       <workItem from="1623375895288" duration="3872000" />
       <workItem from="1624844306035" duration="5028000" />
+      <workItem from="1625017608720" duration="3953000" />
+      <workItem from="1625103909230" duration="4582000" />
     </task>
     <servers />
   </component>
@@ -173,38 +177,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1624853155396">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1625115791812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624853155396" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1624853155396">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625115791812" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1625115791812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624853155396" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1624853155396">
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625115791812" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1625115791812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624853155396" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1624853155396">
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625115791812" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1625115791812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624853155396" />
-    <state width="724" height="260" key="GridCell.Tab.1.bottom" timestamp="1624853155396">
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625115791812" />
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1625115791813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624853155396" />
-    <state width="724" height="260" key="GridCell.Tab.1.center" timestamp="1624853155396">
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625115791813" />
+    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1625115791812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1624853155396" />
-    <state width="724" height="260" key="GridCell.Tab.1.left" timestamp="1624853155396">
+    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1625115791812" />
+    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1625115791812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1624853155396" />
-    <state width="724" height="260" key="GridCell.Tab.1.right" timestamp="1624853155396">
+    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1625115791812" />
+    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1625115791812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1624853155396" />
+    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1625115791812" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1621238224681">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -239,6 +243,11 @@
           <url>file://$PROJECT_DIR$/src/TrappingRainWater.java</url>
           <line>12</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Permutations.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
