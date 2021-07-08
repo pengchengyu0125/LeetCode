@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="986d2e0a-adc9-4f39-bc0c-b67754c86267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UniquePaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/GroupAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupAnagrams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +74,7 @@
       <recent name="TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GroupAnagrams">
+  <component name="RunManager" selected="Application.UniquePaths">
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GroupAnagrams" />
       <module name="leetcode" />
@@ -77,29 +82,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpGameII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JumpGameII" />
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JumpGame" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Permutations" />
+    <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumSubarray" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RotateImage" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeIntervals" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TrappingRainWater" />
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UniquePaths" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePaths" />
+        <item itemvalue="Application.MergeIntervals" />
+        <item itemvalue="Application.JumpGame" />
+        <item itemvalue="Application.MaximumSubarray" />
         <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.RotateImage" />
-        <item itemvalue="Application.Permutations" />
-        <item itemvalue="Application.JumpGameII" />
-        <item itemvalue="Application.TrappingRainWater" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +162,9 @@
       <workItem from="1625017608720" duration="3953000" />
       <workItem from="1625103909230" duration="4582000" />
       <workItem from="1625448934524" duration="5782000" />
+      <workItem from="1625535517790" duration="2941000" />
+      <workItem from="1625624059670" duration="3658000" />
+      <workItem from="1625710542050" duration="3381000" />
     </task>
     <servers />
   </component>
@@ -176,38 +184,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1625456533244">
+    <state x="533" y="0" key="#Auto_Import" timestamp="1625625753731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625456533244" />
-    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1625456533244">
+    <state x="533" y="0" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1625625753731" />
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1625715855462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625456533244" />
-    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1625456533244">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1625715855462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625456533244" />
-    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1625456533244">
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1625715855461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625456533244" />
-    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1625456533244">
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625715855461" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1625715855462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625456533244" />
-    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1625456533244">
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1625715855462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1625456533244" />
-    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1625456533244">
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
+    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1625715855462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1625456533244" />
-    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1625456533244">
+    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
+    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1625715855462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1625456533244" />
+    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
+    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1625715855462">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
+    <state width="542" height="446" key="SwitcherDM" timestamp="1625627719256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="542" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1625627719256" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1621238224681">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -224,10 +240,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1622433237634" />
-    <state x="431" y="145" key="search.everywhere.popup" timestamp="1625456152780">
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1625627731466">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1625456152780" />
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1625627731466" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
