@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="986d2e0a-adc9-4f39-bc0c-b67754c86267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinimumPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/GroupAnagrams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/UniquePaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/UniquePaths.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,23 +72,16 @@
       <recent name="TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniquePaths">
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GroupAnagrams" />
+  <component name="RunManager" selected="Application.EditDistance">
+    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClimbingStairs" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JumpGame" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumSubarray" />
+    <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EditDistance" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,6 +89,13 @@
     </configuration>
     <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MergeIntervals" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimumPathSum" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EditDistance" />
+        <item itemvalue="Application.ClimbingStairs" />
+        <item itemvalue="Application.MinimumPathSum" />
         <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.JumpGame" />
-        <item itemvalue="Application.MaximumSubarray" />
-        <item itemvalue="Application.GroupAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +163,9 @@
       <workItem from="1625535517790" duration="2941000" />
       <workItem from="1625624059670" duration="3658000" />
       <workItem from="1625710542050" duration="3381000" />
+      <workItem from="1625796622879" duration="1825000" />
+      <workItem from="1626054468953" duration="1805000" />
+      <workItem from="1626141152897" duration="1626000" />
     </task>
     <servers />
   </component>
@@ -188,38 +189,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="533" y="0" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1625625753731" />
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1625715855462">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1626143636756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
-    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1625715855462">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626143636756" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1626143636755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
-    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1625715855461">
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626143636755" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1626143636755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625715855461" />
-    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1625715855462">
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626143636755" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1626143636755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
-    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1625715855462">
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626143636755" />
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1626143636756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
-    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1625715855462">
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626143636756" />
+    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1626143636756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
-    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1625715855462">
+    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1626143636756" />
+    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1626143636756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
-    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1625715855462">
+    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1626143636756" />
+    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1626143636756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1625715855462" />
+    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1626143636756" />
     <state width="542" height="446" key="SwitcherDM" timestamp="1625627719256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
