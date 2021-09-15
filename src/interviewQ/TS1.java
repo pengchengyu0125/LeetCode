@@ -1,10 +1,10 @@
 package interviewQ;
 
-public class TS {
+public class TS1 {
     public static void main(String[] args) {
         int nums[] = {3, 2, 4};
         int target = 6;
-        TS ts = new TS();
+        TS1 ts = new TS1();
         System.out.println(ts.twoSum(nums, target).toString());
     }
 
