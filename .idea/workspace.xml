@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="986d2e0a-adc9-4f39-bc0c-b67754c86267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/RI7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/StI8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/CWMW11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/LCP14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/REM10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/RtI13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +72,13 @@
       <recent name="TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StI8">
-    <configuration name="LPS5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.LPS5" />
+  <component name="RunManager" selected="Application.LCP14">
+    <configuration name="CWMW11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.CWMW11" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.StringToIntegerAtoi" />
+          <option name="PATTERN" value="interviewQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LSWRC3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.LSWRC3" />
+    <configuration name="LCP14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.LCP14" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.StringToIntegerAtoi" />
+          <option name="PATTERN" value="interviewQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoTSA4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.MoTSA4" />
+    <configuration name="REM10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.REM10" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.StringToIntegerAtoi" />
+          <option name="PATTERN" value="interviewQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RI7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.RI7" />
+    <configuration name="RtI13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.RtI13" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.StringToIntegerAtoi" />
+          <option name="PATTERN" value="interviewQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCP14" />
+        <item itemvalue="Application.RtI13" />
+        <item itemvalue="Application.CWMW11" />
+        <item itemvalue="Application.REM10" />
         <item itemvalue="Application.StI8" />
-        <item itemvalue="Application.RI7" />
-        <item itemvalue="Application.LPS5" />
-        <item itemvalue="Application.MoTSA4" />
-        <item itemvalue="Application.LSWRC3" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +215,11 @@
       <workItem from="1631887934845" duration="5388000" />
       <workItem from="1631977404387" duration="6635000" />
       <workItem from="1632081647454" duration="4484000" />
-      <workItem from="1632752896537" duration="1548000" />
+      <workItem from="1632752896537" duration="2352000" />
+      <workItem from="1632838229472" duration="2848000" />
+      <workItem from="1632951799445" duration="1180000" />
+      <workItem from="1633032478879" duration="1728000" />
+      <workItem from="1633188622198" duration="2348000" />
     </task>
     <servers />
   </component>
@@ -245,38 +251,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="451" y="38" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1631714032903" />
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1632754553047">
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1633191101005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632754553047" />
-    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1632754553046">
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633191101005" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1633191101004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1632754553046" />
-    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1632754553046">
+    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1633191101004" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1633191101004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1632754553046" />
-    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1632754553046">
+    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1633191101004" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1633191101004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1632754553046" />
-    <state width="1493" height="188" key="GridCell.Tab.1.bottom" timestamp="1632086644702">
+    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1633191101004" />
+    <state width="1493" height="188" key="GridCell.Tab.1.bottom" timestamp="1633191101006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632086644702" />
-    <state width="1493" height="188" key="GridCell.Tab.1.center" timestamp="1632086644702">
+    <state width="1493" height="188" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633191101006" />
+    <state width="1493" height="188" key="GridCell.Tab.1.center" timestamp="1633191101006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1632086644702" />
-    <state width="1493" height="188" key="GridCell.Tab.1.left" timestamp="1632086644702">
+    <state width="1493" height="188" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1633191101006" />
+    <state width="1493" height="188" key="GridCell.Tab.1.left" timestamp="1633191101006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1632086644702" />
-    <state width="1493" height="188" key="GridCell.Tab.1.right" timestamp="1632086644702">
+    <state width="1493" height="188" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1633191101006" />
+    <state width="1493" height="188" key="GridCell.Tab.1.right" timestamp="1633191101006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1632086644702" />
+    <state width="1493" height="188" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1633191101006" />
     <state width="542" height="446" key="SwitcherDM" timestamp="1625627719256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -342,6 +348,11 @@
           <url>file://$PROJECT_DIR$/src/interviewQ/RI7.java</url>
           <line>10</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interviewQ/LCP14.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
