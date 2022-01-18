@@ -20,19 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="986d2e0a-adc9-4f39-bc0c-b67754c86267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/CLwRP138.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/GS134.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/LCS128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/LLC141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/PP131.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/SN136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/SR130.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/WB139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/WBII140.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/WL127.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/ERPN150.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/LC146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/MPoaL149.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/SL148.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/interviewQ/VP125.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/interviewQ/VP125.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +72,22 @@
       <recent name="TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LLC141">
-    <configuration name="CLwRP138" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.CLwRP138" />
+  <component name="RunManager" selected="Application.MPoaL149">
+    <configuration name="ERPN150" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.ERPN150" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC146" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.LC146" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SN136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.SN136" />
+    <configuration name="MPoaL149" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.MPoaL149" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -120,21 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WB139" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.WB139" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WBII140" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.WBII140" />
+    <configuration name="SL148" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.SL148" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MPoaL149" />
+        <item itemvalue="Application.ERPN150" />
+        <item itemvalue="Application.SL148" />
+        <item itemvalue="Application.LC146" />
         <item itemvalue="Application.LLC141" />
-        <item itemvalue="Application.WBII140" />
-        <item itemvalue="Application.WB139" />
-        <item itemvalue="Application.CLwRP138" />
-        <item itemvalue="Application.SN136" />
       </list>
     </recent_temporary>
   </component>
@@ -287,6 +279,8 @@
       <workItem from="1642184134858" duration="2421000" />
       <workItem from="1642261592454" duration="9419000" />
       <workItem from="1642344610458" duration="4469000" />
+      <workItem from="1642430649132" duration="5875000" />
+      <workItem from="1642515764163" duration="6774000" />
     </task>
     <servers />
   </component>
@@ -310,10 +304,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="472" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1635877624744" />
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1642092207755">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1642433049751">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1642092207755" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1642433049751" />
     <state width="422" height="462" key="DebuggerActiveHint" timestamp="1642007335392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -322,38 +316,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1639533040265" />
-    <state width="1493" height="307" key="GridCell.Tab.0.bottom" timestamp="1642350381714">
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom" timestamp="1642525857998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642350381714" />
-    <state width="1493" height="307" key="GridCell.Tab.0.center" timestamp="1642350381714">
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642525857998" />
+    <state width="1493" height="307" key="GridCell.Tab.0.center" timestamp="1642525857998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642350381714" />
-    <state width="1493" height="307" key="GridCell.Tab.0.left" timestamp="1642350381714">
+    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642525857998" />
+    <state width="1493" height="307" key="GridCell.Tab.0.left" timestamp="1642525857998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642350381714" />
-    <state width="1493" height="307" key="GridCell.Tab.0.right" timestamp="1642350381714">
+    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642525857998" />
+    <state width="1493" height="307" key="GridCell.Tab.0.right" timestamp="1642525857998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642350381714" />
-    <state width="1493" height="307" key="GridCell.Tab.1.bottom" timestamp="1642350381714">
+    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642525857998" />
+    <state width="1493" height="307" key="GridCell.Tab.1.bottom" timestamp="1642525857999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642350381714" />
-    <state width="1493" height="307" key="GridCell.Tab.1.center" timestamp="1642350381714">
+    <state width="1493" height="307" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642525857999" />
+    <state width="1493" height="307" key="GridCell.Tab.1.center" timestamp="1642525857998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1642350381714" />
-    <state width="1493" height="307" key="GridCell.Tab.1.left" timestamp="1642350381714">
+    <state width="1493" height="307" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1642525857998" />
+    <state width="1493" height="307" key="GridCell.Tab.1.left" timestamp="1642525857998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1642350381714" />
-    <state width="1493" height="307" key="GridCell.Tab.1.right" timestamp="1642350381714">
+    <state width="1493" height="307" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1642525857998" />
+    <state width="1493" height="307" key="GridCell.Tab.1.right" timestamp="1642525857999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1642350381714" />
+    <state width="1493" height="307" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1642525857999" />
     <state x="291" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1636671522977">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -362,10 +356,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="470" y="168" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1642271681119" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1642022854666">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1642431438157">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1642022854666" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1642431438157" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,7 +441,7 @@
         <watch expression="stack2" />
         <watch expression="lists.get(0)" />
         <watch expression="head" />
-        <watch expression="head.next.next.next" />
+        <watch expression="head.next.next.next" language="JAVA" />
         <watch expression="p2" />
       </configuration>
     </watches-manager>
